@@ -1,0 +1,22 @@
+﻿@page
+@model EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<form method="post">
+    <input hidden asp-for="Category.CategoryID"/>
+        <div class="box">
+            <div class="title-row">
+                <div class="title-elements">
+                    <a asp-page="Categories"><i class="fa-solid fa-arrow-left" style="color: #929292;"></i></a>
+                    <h2>Delete Category</h2>
+                </div>
+            </div>
+            <div class="middle-row">                
+                <label asp-for="Category.CategoryName">Category</label>
+                <input asp-for="Category.CategoryName" type="text" id="category1">
+            </div>
+            <button class="submit-button">Submit</button>
+        </div>
+</form>

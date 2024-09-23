@@ -1,0 +1,79 @@
+﻿<Properties StartupConfiguration="{54499284-F349-42F2-92A9-5841D421BBA0}|Default">
+  <MonoDevelop.Ide.ItemProperties.WebTry PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebTry/Pages/Login.cshtml.cs">
+    <Files>
+      <File FileName="WebTry/Pages/Edit.cshtml.cs" Line="8" Column="17" />
+      <File FileName="WebTry/Pages/Delete.cshtml" />
+      <File FileName="WebTry/wwwroot/css/site.css" />
+      <File FileName="WebTry/Pages/Categories.cshtml" Line="7" Column="1" />
+      <File FileName="WebTry/Pages/Edit.cshtml" Line="15" Column="83" />
+      <File FileName="WebTry/Pages/Categories.cshtml.cs" />
+      <File FileName="WebTry/Pages/Delete.cshtml.cs" Line="7" Column="1" />
+      <File FileName="WebTry/Program.cs" />
+      <File FileName="WebTry/Pages/Index.cshtml" Line="10" Column="40" />
+      <File FileName="WebTry/Pages/Login.cshtml.cs" Line="34" Column="85" />
+      <File FileName="WebTry/Pages/Login.cshtml" Line="19" Column="19" />
+      <File FileName="WebTry/Model/Category.cs" />
+      <File FileName="WebTry/Model/Login.cs" Line="7" Column="20" />
+      <File FileName="WebTry/Pages/Index.cshtml.cs" Line="1" Column="1" />
+      <File FileName="WebTry/Model/User.cs" />
+      <File FileName="WebTry/Migrations/20231027030739_AddContextTODB1.cs" />
+      <File FileName="WebTry/Startup.cs" Line="22" Column="6" />
+      <File FileName="WebTry/Data/ApplicationDbContext.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebTry" expanded="True">
+            <Node name="WebTry" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" expanded="True" />
+                </Node>
+                <Node name="AboutUs.cshtml" expanded="True" />
+                <Node name="Categories.cshtml" expanded="True" />
+                <Node name="Delete.cshtml" expanded="True" />
+                <Node name="Edit.cshtml" expanded="True" />
+                <Node name="Error.cshtml" expanded="True" />
+                <Node name="Index.cshtml" expanded="True" />
+                <Node name="Login.cshtml" expanded="True">
+                  <Node name="Login.cshtml.cs" selected="True" />
+                </Node>
+                <Node name="Register.cshtml" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="jquery-validation" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="additional-methods.js" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <FunctionBreakpoint enabled="false" line="35" column="5" function="a" language="C#" />
+      <Catchpoint exceptionName="System.Exception" includeSubclasses="True" />
+      <Catchpoint exceptionName="System.Exception" includeSubclasses="True" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

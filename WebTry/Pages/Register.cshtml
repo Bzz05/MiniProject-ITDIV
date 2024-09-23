@@ -1,0 +1,30 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+<div class="container">
+    <h1>Registration</h1>
+    <form method="post">
+            <div class="form-group">
+                <label for="username">Name:</label>
+                <input type="text" for="username" name="username" placeholder="Please enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" for="email" name="email" placeholder="Please enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password"for="password" name="password" placeholder="Please enter your password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" placeholder="Please re-enter your password" required>
+            </div>
+            <label><input type="checkbox" required> By clicking Register, I agree to the terms and conditions </label>
+            <br>
+            <div class="form-group">
+                <button class="submit-button" type="submit">Register</button>
+            </div>
+    </form>

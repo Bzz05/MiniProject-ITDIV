@@ -1,0 +1,54 @@
+﻿@page
+@model CategoriesModel
+@{
+    ViewData["Title"] = "Categories page";
+}
+
+<div class="content">
+    <h2>Product Categories</h2>
+    <button class="custom-button" onclick="openPopup()">Add Category</button>
+    <form method="post">
+        <div class="overlay" id="popup">
+            <div class="popup">
+                <div class="title-row">
+                    <h2>Add Category</h2>
+                    <span class="close-button" onclick="closePopup()"><i class="fa-solid fa-xmark"></i></span>
+                </div>
+                <div class="middle-row">
+                    <label asp-for="Category.CategoryName">Category</label>
+                    <input asp-for="Category.CategoryName" type="text" id="category">
+                </div>
+                <button class="submit-button" type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+    @{
+        var idx = 1;
+    }
+    <table class="tabel">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model.Categories)
+            {
+                <tr>
+                    <td class="number">@idx</td>
+                    <td class="name">@obj.CategoryName</td>
+                    <td class="rest">
+                        <div class="buttons" role="group">
+                            <a asp-page="Edit" asp-route-id="@obj.CategoryID" class="btn1">Edit</a>
+                            <a asp-page="Delete" asp-route-id="@obj.CategoryID" class="btn2">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+                idx++;
+            }
+        </tbody>
+    </table>
+</div>
+

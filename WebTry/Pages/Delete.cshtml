@@ -1,0 +1,19 @@
+﻿@page
+@model DeleteModel
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="Category.CategoryID"/>
+    <div class="box">
+        <div class="title-row">
+            <div class="title-elements">
+                <a asp-page="Categories"><i class="fa-solid fa-arrow-left" style="color: #929292;"></i></a>
+                <h2>Delete Category</h2>
+            </div>
+        </div>
+        <p class="delete-p">This action is irreversible! Are you sure you want to delete this category?.</p>
+        <button class="submit-button2">Submit</button>
+    </div>
+</form>

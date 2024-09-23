@@ -1,0 +1,57 @@
+﻿<Properties StartupConfiguration="{97EBD5F5-C9D5-4406-811C-BF30980AF9DF}|Default">
+  <MonoDevelop.Ide.ItemProperties.WebTry PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Model/User.cs">
+    <Files>
+      <File FileName="Model/Login.cs" Line="14" Column="32" />
+      <File FileName="Pages/Edit.cshtml.cs" Line="1" Column="1" />
+      <File FileName="wwwroot/js/site.js" Line="26" Column="24" />
+      <File FileName="wwwroot/css/site.css" Line="121" Column="43" />
+      <File FileName="Pages/Index.cshtml" Line="16" Column="72" />
+      <File FileName="Pages/Login.cshtml.cs" Line="65" Column="44" />
+      <File FileName="Pages/Login.cshtml" Line="23" Column="37" />
+      <File FileName="Pages/Register.cshtml" Line="20" Column="70" />
+      <File FileName="Pages/Register.cshtml.cs" Line="16" Column="19" />
+      <File FileName="Model/User.cs" Line="16" Column="35" />
+      <File FileName="Pages/AboutUs.cshtml" Line="19" Column="7" />
+      <File FileName="Startup.cs" Line="20" Column="137" />
+      <File FileName="Model/Register.cs" Line="24" Column="53" />
+      <File FileName="Migrations/20231028105033_AddContextToDB3.Designer.cs" Line="1" Column="1" />
+      <File FileName="Migrations/20231027030739_AddContextTODB1.cs" Line="1" Column="1" />
+      <File FileName="Data/ApplicationDbContext.cs" Line="17" Column="40" />
+      <File FileName="Migrations/ApplicationDbContextModelSnapshot.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebTry" expanded="True">
+            <Node name="WebTry" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="20231028105033_AddContextToDB3.cs" expanded="True" />
+              </Node>
+              <Node name="Model" expanded="True">
+                <Node name="User.cs" selected="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="AboutUs.cshtml" expanded="True" />
+                <Node name="Edit.cshtml" expanded="True" />
+                <Node name="Login.cshtml" expanded="True" />
+                <Node name="Register.cshtml" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
